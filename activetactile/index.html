@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Active Tactile Exploration for Rigid Body Pose and Shape Estimation">
+  <meta name="keywords" content="Robot Learning, System Identification, Active Learning, Exploration">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Active Tactile Exploration for Rigid Body Pose and Shape Estimation</title>
+
+  <!-- Google tag (gtag.js) -->
+  <!-- TODO: Insert Google Tag for dairlab.github.io -->
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="../shared/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../shared/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../shared/images/favicon-16x16.png">
+  <link rel="manifest" href="../shared/images/shared/images/site.webmanifest">
+
+  <!-- TEX -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js" integrity="sha384-..."
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Active Tactile Exploration for Rigid Body Pose and Shape Estimation</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://ethankgordon.com">Ethan K. Gordon</a><sup>1</sup>,</span>
+              <span class="author-block">
+                Bruke Baraki<sup>1</sup>,</span>
+              <span class="author-block">
+                Hien Bui<sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://dair.seas.upenn.edu/posa/">Michael Posa</a><sup>1</sup>,</span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>University of Pennsylvania</span>
+            </div>
+
+            <!--
+            <div class="is-size-5 has-text-weight-semibold mt-3 publication-title">
+              <span class="author-block">Under Review</span>
+            </div>
+            -->
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!--
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                -->
+                <!-- arXiv Link -->
+                <span class="link-block">
+                  <a href="#" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Video Link. -->
+                <!--
+                <span class="link-block">
+                  <a href="https://www.youtube.com/watch?v=dfGIpLrd2nk" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                    </span>
+                    <span>Video</span>
+                  </a>
+                </span>
+                -->
+                <!-- Code Link. -->
+                <!--
+                <span class="link-block">
+                  <a href="#"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                -->
+                <!-- Poster download link. -->
+                <!-- <span class="link-block">
+                  <a href="#" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="far fa-sticky-note"></i>
+                    </span>
+                    <span>Poster</span>
+                  </a>
+                </span> -->
+                <!-- Slides download link. -->
+                <!-- <span class="link-block">
+                  <a href="#" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-powerpoint"></i>
+                    </span>
+                    <span>Slides</span>
+                  </a>
+                </span> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+    <div class="container is-centered is-max-desktop">
+      <div class="hero-body">
+        <!--
+        <video id="teaser" autoplay muted loop playsinline>
+          <source src="#" type="video/mp4">
+        </video>
+        -->
+        <h2 class="subtitle has-text-centered">
+          Our system learns <i>dynamic</i> rigid bodies from &lt;10s of tactile data.
+        </h2>
+      </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content">
+            <h2 class="title is-3">Abstract</h2>
+            <div class="content has-text-justified">
+              <p>
+                General robot manipulation requires the handling of previously unseen objects. Learning a physically accurate model at test time can provide significant benefits in data efficiency, predictability, and reuse between tasks. Tactile sensing can compliment vision with its robustness to occlusion, but its temporal sparsity necessitates careful online exploration to maintain data efficiency. Direct contact can also cause an unrestrained object to move, requiring both shape \emph{and} location estimation. In this work, we propose a learning and exploration framework that uses only tactile data to simultaneously determine the shape and location of rigid objects with minimal robot motion. We build on recent advances in contact-rich system identification to formulate a loss function that penalizes physical constraint violation without introducing the numerical stiffness inherent in rigid-body contact. Optimizing this loss, we can learn cuboid and convex polyhedral geometries with less than 10s of randomly collected data after first contact. Our exploration scheme seeks to maximize Expected Information Gain and results in significantly faster learning in both simulated and real-robot experiments.
+              </p>
+              <!--
+              <video id="teaser" autoplay muted playsinline loop>
+                <source src="#" type="video/mp4">
+              </video>
+              -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/ Abstract. -->
+
+      <!-- Paper video. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Video</h2>
+          <div class="publication-video">
+            <iframe src="https://drive.google.com/file/d/1-bJA3fGzRMc_nCrODrvO-9WVmNBopsw1/preview" width="640" height="480" allow="autoplay"></iframe>
+            <!--
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/#"
+              title="YouTube video player" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+            -->
+          </div>
+        </div>
+      </div>
+      <!--/ Paper video. -->
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{gordon2026active,
+  title={ASID: Active Exploration for System Identification in Robotic Manipulation},
+  author={Gordon, Ethan K. and Baraki, Bruke and Bui, Hien and Posa, Michael},
+  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  year={2026}
+}
+</code></pre>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is based on the <a href="https://github.com/nerfies/nerfies.github.io"
+                target="_blank">Nerfies website template</a>,
+              which is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"
+                target="_blank">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
